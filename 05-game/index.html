@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../main-project/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Aim Training</title>
+</head>
+
+<body>
+  <div class="screen">
+    <nav class="header">
+      <ul>
+        <li><a href="../index.html">Cards</a></li>
+        <li><a href="/02-drag-n-drop-sources/index.html">Drag & drop</a></li>
+        <li><a href="/04-board/index.html">Slider</a> </li>
+        <li><a href="/05-game/index.html">Board</a></li>
+        <li><a class="active" href="index.html">Game</a></li>
+      </ul>
+    </nav>
+    <h1>Aim Training</h1>
+    <p>Проверь свою скорость</p>
+    <a href="#" class="start" id="start">Начать игру</a>
+  </div>
+
+  <div class="screen">
+    <h1>Выберите время</h1>
+    <ul class="time-list" id="time-list">
+      <li>
+        <button class="time-btn" data-time="2">
+          2 сек
+        </button>
+      </li>
+      <li>
+        <button class="time-btn" data-time="10">
+          10 сек
+        </button>
+      </li>
+      <li>
+        <button class="time-btn" data-time="20">
+          20 сек
+        </button>
+      </li>
+      <li>
+        <button class="time-btn" data-time="30">
+          30 сек
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="screen">
+    <h3>Осталось <span id="time">00:00</span></h3>
+    <div class="board" id="board"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
