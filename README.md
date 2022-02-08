@@ -1,3 +1,3 @@
 project for developments js
 
-https://qvatraweb.github.io/js-miniProjects/
+https://matveevyura.github.io/js-miniProjects/index.html
